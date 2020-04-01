@@ -1,0 +1,13 @@
+Sensor reflexivo mini  =>  QRE1113 FairChild
+
+Temperatura de operacao  =>  -25 ate 85 C
+
+Potencia dissipada do sensor  =>  50 mW
+
+Corrente do coletor  =>  20mA
+
+Tensao maxima de entrada => 1,6 V
+
+Dimensões do sensor (altura, largura e comprimento) => [A - 1.70/1.50 | L - 3.60/3.20 | C - 2.90/2.50] (mm)
+
+Corrente normalizada no coletor quanto a distancia entre o sensor e o objeto a 3 mm (use as informacoes dos graficos)  =>  0.2 +- 0.01
