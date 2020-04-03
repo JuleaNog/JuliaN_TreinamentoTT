@@ -1,0 +1,31 @@
+//Faded led
+
+int led = 2;
+int valor = 0;
+int valor2 = 255;
+
+void setup()
+{
+  pinMode(led, OUTPUT);
+}
+
+void loop()
+{
+  valor = 0;
+  while (valor <= 255)
+  {
+    analogWrite(led, valor);
+    valor = valor + 4;
+    delay(30);
+  }
+  
+  delay(80);
+  
+  valor2 = 255;
+  while (valor2 >= 0)
+  {
+    analogWrite(led, valor2);
+    valor2 = valor2 - 4;
+    delay(30);
+  }
+}
