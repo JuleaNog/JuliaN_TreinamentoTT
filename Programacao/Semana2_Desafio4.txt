@@ -1,0 +1,33 @@
+//blinkLED COM MILLIS (SEM DELAY)
+
+int estadoLed = LOW;
+
+unsigned long anterior = 0;
+unsigned long intervalo = 300; //pisca num intervalo de 300 milisec.
+
+void setup()
+{
+  pinMode(13, OUTPUT);
+  
+}
+
+void loop()
+{
+  unsigned long atual = millis(); //Inicia variavel de tempo
+  
+  if(atual - anterior > intervalo)
+  {
+   	anterior = atual; //Armazena o valor do ultimo tempo
+    
+    if(estadoLed == HIGH)
+    {
+      estadoLed = LOW;
+    }
+    else
+    {
+      estadoLed = HIGH;
+    }
+    
+    digitalWrite(13, estadoLed);
+  }
+}

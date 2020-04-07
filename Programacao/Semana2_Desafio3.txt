@@ -1,0 +1,17 @@
+// programacao do led com potenciometro e monitor serial
+int pot = A0;
+int valorpot = 0;
+
+void setup()
+{
+  pinMode(13, OUTPUT);
+  pinMode(pot, INPUT);
+  Serial.begin(9600);
+}
+
+void loop()
+{
+  valorpot = analogRead(pot);
+  digitalWrite(13, valorpot);
+  Serial.println(valorpot);
+}
