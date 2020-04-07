@@ -1,0 +1,24 @@
+// programacao acender led com botao
+
+int botao = 2;
+int leitura = 0;
+
+void setup()
+{
+  pinMode(13, OUTPUT);
+  pinMode(botao, INPUT);
+}
+
+void loop()
+{
+  leitura = digitalRead(botao);
+  
+  if (leitura == HIGH)
+  {
+    digitalWrite(13, HIGH);
+  }
+  else
+  {
+    digitalWrite(13, LOW);
+  }
+}
