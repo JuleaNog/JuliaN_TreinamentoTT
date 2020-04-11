@@ -1,0 +1,48 @@
+TMP36 - Sensor de temperatura
+
+O componente é um sensor de temperatura (em C) de baixa tensao 
+
+Finalidade: Medir a temperatura do ambiente que está.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+Funcionamento: O sensor TMP36 fornece uma tensao de saida proporcional a temperatura em graus Celsius, sendo assim,
+ele fornece uma saida de 10 mV/ºC. Ele nao precisa de nenhuma calibracao externa para fornecer a sua precisao descrita em um dos topicos abaixo.
+Seu fornecimento é de 2,7 V a 5,5 V máx.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+Fator de escala = Fator de escala de 10 mV/°C (é a razao entre um valor e outro, por exemplo, no software 3D usamos um valor de escala X definido
+pelo tamanho do objeto 3D dividido pelo tamanho original do objeto. Neste caso é a razao entre a tensao e a temperatura, já que o componente fornece
+na saida uma tensao proporcional a temperatura de 10mV por grau centigrado).
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+Precisao:  ± 1°C a +25°C e ± 2°C na faixa de temperatura de -40°C a +125°C. (precisao é a eficiencia com que o componente
+vai retornar os valores. Neste caso a precisao dele á +25 graus é de +- 1 grau, ou seja, ele possui uma faixa de erro em até
+1 grau positivo ou negativo do valor lido).
+
+----------------------------------------------------------------------------------------------------------------------
+
+Temperatura operacional/faixa de medicao : - 40 a 125 graus C (é a faixa de temperatura que o componente funciona).
+
+----------------------------------------------------------------------------------------------------------------------
+
+Linearidade: +- 0,5 graus C (Na matematica se refere a propriedade de escalonamento, ou seja, se voce tem duas escalas 
+fisicas relacionadas, como tempo e distancia, se voce dobrar uma, dobra a outra tambem. Na eletronica, linearidade é a
+relação linear entre tensão e corrente. Neste caso, a linearidade tem uma faixa de erro de +- 0,5 C).
+
+----------------------------------------------------------------------------------------------------------------------
+
+Algumas aplicacoes deste componente:
+
+Teoricamente, qualquer projeto que precise medir a temperatura do ambiente.
+
+Exemplos:
+
+- Sistema de controle ambiental.
+- monitoramento termico da CPU.
+- Automacao de casas (liga ar condicionado quando detecta uma certa temperatura).
+- Alarme de incendio.
+
+-----------------------------------------------------------------------------------------------------------------------
