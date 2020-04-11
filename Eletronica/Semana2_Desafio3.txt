@@ -1,0 +1,14 @@
+Desafio 3 - Atuadores
+
+Atuador escolhido: atuador eletrico linear (existem de todos os tamanhos, porem os que podem ser usados (de modo viavel) 
+pela tamandutech sao os pequenos que possuem um comprimento do curso de poucos cm).
+
+Funcionamento: O atuador eletrico linear converte a energia elétrica que entra em energia cinética, ou seja, em movimento mecânico. 
+Esse movimento é linear, ou seja, movimento de empurrar e puxar (avanca e recua). A maior parte dos atuadores lineares utiliza uma 
+combinação de engrenagens para retrair ou estender o braço de acionamento.
+
+Exemplos de uso:
+
+- Armas retrateis
+- Controle de portas
+- Controle de altura de um elemento (como uma arma ou componente)
