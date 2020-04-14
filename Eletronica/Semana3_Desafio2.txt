@@ -1,0 +1,65 @@
+Resistores
+
+
+a) 330 ohms com ±5% de tolerancia 
+
+b) 8500000 ohms ou 8,5 M com ± 1% de tolerancia
+
+c) 25000 ohms ou 25 K ohms com ±5% de tolerancia
+
+d) 4700000 ohms ou 4,7 M com ±5% de tolerancia
+
+e) 1000 ohms ou 1 K ±20% de tolerancia
+
+f) 270 ohms com ±5% de tolerancia
+
+g) 639000 ohms ou 639 K com ± 10% de tolerancia
+
+h) 4,58 ohms com ± 1% de tolerancia e 50 PPM/C (coeficiente de temperatura)
+
+
+
+-------------------- NOTAS -----------------------------------------------------------------------------------------
+Código de cores resistores 3 faixas:
+
+1ª Faixa: mostra o primeiro algarismo do valor da resistência.
+2ª Faixa: mostra o segundo algarismo da resistência.
+3ª Faixa: mostra quantos zeros devem ser adicionados a resistência.
+Obs: Para os resistores de 3 faixas a tolerância pode ser considerada em ± 20%, sendo definido sem cor.
+
+-------------------------------------
+4 faixas:
+
+Mesma coisa que o de 3 faixas + a quarta faixa que representa a tolerencia (±)
+
+marrom = 1%
+vermelho = 2%
+verde = 0,5%
+azul = 0,25%
+violeta = 0,1%
+cinza = 0,05%
+dourado = 5%
+prata = 10%
+
+---------------------------------------
+5 faixas:
+
+1ª Faixa: mostra o primeiro algarismo do valor da resistência.
+2ª Faixa: mostra o segundo algarismo da resistência.
+3ª Faixa: mostra o terceiro algarismo da resistência.
+4ª Faixa: mostra quantos zeros devem ser adicionados a resistência.
+5ª Faixa: mostra a tolerância que o componente terá.
+
+-----------------------------------------
+6 faixas: 
+
+Mesma coisa que o de 5 faixas + sexta faixa que representa o coeficiente de temperatura em PPM/°C.
+
+marrom = 100 PPM/C
+vermelho = 50
+laranja = 15
+amarelo = 25
+azul = 10
+violeta = 5
+
+------------------------------------------

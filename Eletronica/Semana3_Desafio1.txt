@@ -1,0 +1,18 @@
+CI 74HC32
+	
+Tipo de componente: Circuito integrado de porta logica OR
+
+Finalidade: Reunir varias portas logicas em um mesmo componente, neste caso a porta OR, que possui a finalidade descrita abaixo.
+
+Funcionamento: O CI 74HC32 reune dentro dele 4 portas logicas or (ou), alem dos pinos de alimentacao e GND. OR é uma operacao logica entre dois
+ou mais sinais de entrada que retorna falso somente quando todos os sinais de entrada sao falsos (em binario: 0), caso qualquer uma de suas entradas
+(independente de quantas forem) for acionada (em binario: 1) a porta logica retorna verdadeiro.
+Comparando a uma situacao real, por exemplo, existem 3 botoes que acionam um atuador, caso um deles seja apertado (nao importa qual), o atuador sera
+acionado tambem, a unica maneira de nao aciona-lo é nao apertar nenhum dos botoes (retorna falso), ou seja, o atuador sera acionado quando for apertado
+o botao 1 OU o botao 2 OU o botao 3.
+
+Aplicacoes:
+
+- Sistema de iluminacao
+- projetos que usem leituras de sensores para acionamento fisico
+- Basicamente, qualquer sistema que use componentes de entrada paralelos para acionar uma saida
