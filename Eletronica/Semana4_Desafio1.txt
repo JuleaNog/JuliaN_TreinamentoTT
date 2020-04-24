@@ -1,0 +1,57 @@
+LM555
+
+Tipo de componente: Circuito integrado com varias aplicacoes relacionado ao tempo (ele funciona basicamente como um timer).
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+Finalidade: O 555 é capaz de emitir pulsos em sua saída com uma frequencia configurável e tem 3 modos de funcionamento:
+- Astável: atua como oscilador
+- Monoestável: funciona como um disparador
+- Biestável: que é utilizado em flip flops
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+Aplicacoes:
+
+- Iluminacoes automáticas
+- Temporizadores
+- Metronomo
+- Pisca pisca
+
+Entre outros circuitos/projetos que necessitam de um clock, um pulso, um temporizador, etc.
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+Funcionamento do modo Monoestável: Nesse modo o 555 gera um pulso de acordo com o sinal recebido no TRIG (pino do disparador).
+Quando ele recebe esse sinal no pino, ele gera um pulso de duracao especifica (tempo) na saída. Depois ele deixa a saida desligada novamente
+e fica pronto para receber outro sinal.
+
+Esse tempo pode ser calculado pela seguinte fórmula:
+
+T = 1,1 x R x C
+
+
+-------------------------------------------------------------------------------------------------------------------------------
+
+Time delay no modo monoestavel com capacitor de 0.1 uF e resistor de 10Mohms: 1 segundo
+
+-------------------------------------------------------------------------------------------------------------------------------
+Como é calculado o periodo total de oscilacao no modo astavel:
+
+Tempo em que a saída permanece em nível alto:
+
+T Alta = 0,693 x C1 (R1 + R2)
+
+Em nível baixo:
+
+T baixa = 0,693 x C1 x R2
+
+Tempo/periodo total:
+
+T total - 0,693 (ou ln(2)) x C x (R1 + 2R2)
+
+Onde:
+
+C1: Capacitância de C1 em Farads
+R1: Resistência de R1 em Ohms
+R2: Resistência de R2 em Ohms
