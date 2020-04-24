@@ -1,0 +1,23 @@
+int botao1 = 2;
+int led = 4;
+int statusB1 = LOW;
+
+void setup()
+{
+  pinMode(4, OUTPUT);
+  pinMode(2, INPUT);
+}
+
+void loop()
+{
+  statusB1 = digitalRead(botao1);
+    
+  if(statusB1 == HIGH)
+  {
+    digitalWrite(led, LOW);
+  }
+  else
+  {
+    digitalWrite(led, HIGH);
+  }
+}

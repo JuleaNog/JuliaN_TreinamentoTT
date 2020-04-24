@@ -1,0 +1,62 @@
+int buzzer = 8;
+
+void setup()
+{
+	pinMode(buzzer, OUTPUT); 
+}
+  
+void loop()
+{
+    tone(buzzer,261,400);  //Dó  
+    delay(400);
+    noTone(buzzer); 
+      
+    tone(buzzer,293,400); //Ré 
+    delay(400);
+    noTone(buzzer); 
+    
+    tone(buzzer,329,400);  //Mi  
+    delay(400);
+    noTone(buzzer); 
+  
+    tone(buzzer,349,400);  //Fá   
+    delay(400);    
+    noTone(buzzer); 
+  
+    tone(buzzer,392,400); //Sol           
+    delay(400);
+    noTone(buzzer); 
+  
+    tone(buzzer,440,400); //lá        
+    delay(400);
+    noTone(buzzer);
+  	
+    tone(buzzer,466,600); //Si       
+    delay(600);
+    noTone(buzzer);
+  
+    tone(buzzer,440,400); //lá        
+    delay(400);
+    noTone(buzzer);
+  
+    tone(buzzer,392,400); //Sol           
+    delay(400);
+    noTone(buzzer); 
+  
+    tone(buzzer,349,400);  //Fá   
+    delay(400);    
+    noTone(buzzer);
+  
+    tone(buzzer,329,400);  //Mi  
+    delay(400);
+    noTone(buzzer); 
+  
+    tone(buzzer,293,400);  //re  
+    delay(400);
+    noTone(buzzer); 
+      
+    tone(buzzer,261,400); //dó
+    delay(400);
+    noTone(buzzer); 
+  
+}
