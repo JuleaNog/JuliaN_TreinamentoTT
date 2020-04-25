@@ -1,0 +1,16 @@
+const int sensor = A0;
+int leitura = 0;
+
+void setup()
+{
+  pinMode(sensor, INPUT);
+  Serial.begin(9600);
+}
+
+void loop()
+{
+  leitura = analogRead(sensor);
+  
+  Serial.print("Valor do Sensor PIR: "); 
+  Serial.println(leitura);
+}

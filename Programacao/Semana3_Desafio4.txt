@@ -1,0 +1,27 @@
+const int sensor = 2;
+bool leitura = 0;
+int buzzer = 7;
+
+void setup()
+{
+  pinMode(buzzer, OUTPUT);
+  pinMode(sensor, INPUT);
+  Serial.begin(9600);
+}
+
+void loop()
+{
+  leitura = digitalRead(sensor);
+    
+  if(leitura == HIGH)
+  {
+    tone(buzzer,329,200);   
+    delay(200);
+    noTone(buzzer);
+    
+  }
+  else
+  {
+    noTone(buzzer);
+  }
+}
