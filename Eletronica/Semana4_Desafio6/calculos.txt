@@ -1,0 +1,37 @@
+Calculos:
+
+Tempo que o led fica ligado:
+
+T = 0,693 x C x (R1+R2)
+
+T = 0,693 x 100 µF x (1k + 6,8k)
+
+T = 0,693 x 0,0001 F x (1k + 6,8k)
+
+T = 0,693 x 0,0001 x 7800
+
+T = 0,540 segundos 
+
+T é aproximadamente meio segundo.
+
+-------------------------------------
+
+Tempo que o led fica desligado:
+
+T = 0,693 x C1 x R2
+
+T = 0,693 x 0,0001 x 6800
+
+T = 0,471 segundos
+
+---------------------------------------
+
+Tempo/periodo total:
+
+T total = 0,693 x C x (R1 + 2R2)
+
+T total = 0,693 x 0,0001 x (1k + 2x6,8k)
+
+T total = 0,693 x 0,0001 x (14600)
+
+T total = 1,01 segundos
